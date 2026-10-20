@@ -3,7 +3,7 @@
 `WaterVolume` makes a swimmable pool that renders itself: moving surface, refraction, reflections,
 caustics, an underwater view, and ripples where bodies touch the water.
 
-![Pool](images/sc_pool.png)
+![Pool](../images/sc_pool.png)
 
 !> Water needs the custom Godot build with the PhysX module (`PhysXWaterSurface3D`). Without a
 RenderingDevice (headless, Compatibility renderer) the surface is still, but swimming works.

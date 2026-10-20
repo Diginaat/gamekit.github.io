@@ -6,11 +6,11 @@ and lens flares from the sun and from lights you choose.
 
 | Lens off | Natural |
 | --- | --- |
-| ![Off](images/l_off.png) | ![Natural](images/l_natural.png) |
+| ![Off](../images/l_off.png) | ![Natural](../images/l_natural.png) |
 
 | Film | Sun flare |
 | --- | --- |
-| ![Film](images/l_film.png) | ![Sun flare](images/l_sun2.png) |
+| ![Film](../images/l_film.png) | ![Sun flare](../images/l_sun2.png) |
 
 ## The player already has it
 

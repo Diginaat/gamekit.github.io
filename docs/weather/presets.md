@@ -18,7 +18,7 @@ All in `res://addons/gamekit_weather/presets/`:
 
 | Clear | Storm |
 | --- | --- |
-| ![Clear](images/w_clear.png) | ![Storm](images/w_storm_station.png) |
+| ![Clear](../images/w_clear.png) | ![Storm](../images/w_storm_station.png) |
 
 ## The values
 

@@ -3,7 +3,7 @@
 One `WeatherSystem` node controls the sky, clouds, rain, wind, fog, lightning, thunder, sun, exposure
 and wet surfaces. It blends smoothly between weather presets.
 
-![Thunderstorm](images/w_thunder.png)
+![Thunderstorm](../images/w_thunder.png)
 
 ## Set up
 

@@ -7,7 +7,7 @@ Open it and press **F6**. Each station has a sign that tells you which nodes it 
 ([C#](https://github.com/Diginaat/GameKitDemoCSharp), [GDScript](https://github.com/Diginaat/GameKitDemoGDScript))
 have a bigger demo map with the same stations as separate scenes.
 
-![Showcase](images/sc_overview.png)
+![Showcase](../images/sc_overview.png)
 
 | Station | What to try | Nodes |
 | --- | --- | --- |
@@ -20,9 +20,9 @@ have a bigger demo map with the same stations as separate scenes.
 | Movement abilities | Slide (sprint + **Ctrl**), mantle (jump + forward at a ledge) | `Abilities` child nodes of the player |
 | Weather | Press **F7**; stand under the roof in rain | `WeatherSystem`, wet floors, roof as cover |
 
-![Pool](images/sc_pool.png)
+![Pool](../images/sc_pool.png)
 
-![Storm at the weather station](images/w_storm_station.png)
+![Storm at the weather station](../images/w_storm_station.png)
 
 ## How to learn from it
 

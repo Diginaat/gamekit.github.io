@@ -3,7 +3,7 @@
 This page builds a small playable map: a floor, a few blocks, stairs, a pickup, and rain.
 You don't write any code.
 
-![Map template in light rain](images/w_template.png)
+![Map template in light rain](../images/w_template.png)
 
 ## Step 1: Copy the template
 

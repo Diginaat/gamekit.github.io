@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>GameKit Docs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="How to use GameKit: modular first-person systems for Godot 4 (C#)">
+  <meta name="description" content="How to use GameKit: modular first-person systems for Godot 4 (C# and GDScript)">
   <link rel="stylesheet" id="theme-light" href="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/themes/vue.css">
   <link rel="stylesheet" id="theme-dark" href="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/themes/dark.css" disabled>
   <link rel="stylesheet" href="assets/docs.css">
@@ -20,6 +20,8 @@
       subMaxLevel: 2,
       auto2top: true,
       relativePath: false,
+      // One sidebar for every page (docsify otherwise looks for <folder>/_sidebar.md first).
+      alias: { '/.*/_sidebar.md': '/_sidebar.md' },
       copyCode: { buttonText: 'Copy', successText: 'Copied' },
       pagination: { previousText: 'Previous', nextText: 'Next', crossChapter: true },
     });
@@ -30,6 +32,8 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2.10.1/dist/docsify-pagination.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-csharp.min.js"></script>
+  <!-- prism-glsl extends prism-c, so c must load first. -->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-c.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-glsl.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-gdscript.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-ini.min.js"></script>

@@ -14,7 +14,7 @@ The two projects have the **same map**. Only the programming language is differe
 ?> **New to programming?** Start with the **GDScript** project. GDScript is Godot's own language, and the
 project runs without installing anything except the editor.
 
-![Demo map](images/sc_overview.png)
+![Demo map](../images/sc_overview.png)
 
 ## What you need
 
