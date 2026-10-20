@@ -4,19 +4,6 @@ GameKit is a set of modular first-person game systems for **Godot 4**, in **C#**
 player controller, ladders, moving platforms, doors and pickups, swimmable water, dynamic weather,
 a photographic camera look and first-person weapons. Each system is a folder you can copy into a game.
 
-![Feature showcase](images/sc_overview.png)
-
-## Download
-
-| What | Download |
-| --- | --- |
-| **Engine** (Godot NVIDIA + PhysX, Windows) | **[Latest release](https://github.com/Diginaat/godot/releases/latest)**, then under **Assets**: `..._editor_windows_amd64_mono.zip` (C# and GDScript) or `..._editor_windows_amd64.zip` (GDScript only). Export templates: `..._export_templates_windows_amd64.tpz`. [All releases](https://github.com/Diginaat/godot/releases) |
-| **GDScript demo** | [Download ZIP](https://github.com/Diginaat/GameKitDemoGDScript/archive/refs/heads/main.zip) or [GitHub page](https://github.com/Diginaat/GameKitDemoGDScript) |
-| **C# demo** | [Download ZIP](https://github.com/Diginaat/GameKitDemoCSharp/archive/refs/heads/main.zip) or [GitHub page](https://github.com/Diginaat/GameKitDemoCSharp) |
-
-The **Latest release** link always opens the newest engine version. New to this? Follow
-[Demo projects](getting-started/demo-projects.md) step by step.
-
 ## Built on
 
 The engine GameKit runs on combines the work of:
@@ -29,6 +16,19 @@ The engine GameKit runs on combines the work of:
 - **[Godot Engine](https://godotengine.org)** and its contributors.
 
 Everyone else who made this possible is on [Credits](reference/credits.md).
+
+![Feature showcase](images/sc_overview.png)
+
+## Download
+
+| What | Download |
+| --- | --- |
+| **Engine** (Godot NVIDIA + PhysX, Windows) | **[Latest release](https://github.com/Diginaat/godot/releases/latest)**, then under **Assets**: `..._editor_windows_amd64_mono.zip` (C# and GDScript) or `..._editor_windows_amd64.zip` (GDScript only). Export templates: `..._export_templates_windows_amd64.tpz`. [All releases](https://github.com/Diginaat/godot/releases) |
+| **GDScript demo** | [Download ZIP](https://github.com/Diginaat/GameKitDemoGDScript/archive/refs/heads/main.zip) or [GitHub page](https://github.com/Diginaat/GameKitDemoGDScript) |
+| **C# demo** | [Download ZIP](https://github.com/Diginaat/GameKitDemoCSharp/archive/refs/heads/main.zip) or [GitHub page](https://github.com/Diginaat/GameKitDemoCSharp) |
+
+The **Latest release** link always opens the newest engine version. New to this? Follow
+[Demo projects](getting-started/demo-projects.md) step by step.
 
 ## What is in the kit
 
