@@ -17,6 +17,19 @@ a photographic camera look and first-person weapons. Each system is a folder you
 The **Latest release** link always opens the newest engine version. New to this? Follow
 [Demo projects](getting-started/demo-projects.md) step by step.
 
+## Built on
+
+The engine GameKit runs on combines the work of:
+
+- **[Wild Ox Studios (uno1982)](https://github.com/uno1982)**: the
+  [PhysX 5 module for Godot](https://github.com/uno1982/godot/tree/feature/physx5-module)
+  (physics, water, fluids, cloth, vehicles).
+- **[NVIDIA RTX](https://github.com/NVIDIA-RTX)**: [Godot with DLSS, path tracing and
+  Streamline](https://github.com/NVIDIA-RTX/godot).
+- **[Godot Engine](https://godotengine.org)** and its contributors.
+
+Everyone else who made this possible is on [Credits](reference/credits.md).
+
 ## What is in the kit
 
 | Module | What you get |

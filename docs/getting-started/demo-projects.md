@@ -169,6 +169,7 @@ More answers: [Troubleshooting / FAQ](reference/faq.md).
 | PhysX 5 module (source) | https://github.com/uno1982/godot/tree/feature/physx5-module |
 | PhysX example project | https://github.com/uno1982/godot-physx-example |
 | Wild Ox Studios on YouTube | https://www.youtube.com/@WildOxStudios |
+| NVIDIA RTX Godot (DLSS, path tracing) | https://github.com/NVIDIA-RTX/godot |
 | Godot Engine | https://godotengine.org |
 | Godot documentation (for beginners) | https://docs.godotengine.org/en/stable/getting_started/introduction/index.html |
 | .NET SDK (C# only) | https://dotnet.microsoft.com/download/dotnet/8.0 |
