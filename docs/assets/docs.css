@@ -1,0 +1,55 @@
+/* GameKit docs: colours for both themes, search box and theme toggle. */
+:root {
+  --theme-color: #2f7d6d;
+  --fz-bg: #ffffff;
+  --fz-border: #d8dee4;
+  --fz-text: #2c3e50;
+  --fz-muted: #6a737d;
+  --fz-hover: #eef6f4;
+  --fz-mark: #ffe58a;
+}
+
+html[data-theme="dark"] {
+  --theme-color: #4fbfa8;
+  --fz-bg: #1f2124;
+  --fz-border: #3a3f44;
+  --fz-text: #d6d9dc;
+  --fz-muted: #9aa1a8;
+  --fz-hover: #2a3532;
+  --fz-mark: #6b5a12;
+}
+
+/* Tables and screenshots */
+.markdown-section table { display: table; width: 100%; }
+.markdown-section img { max-width: 100%; border-radius: 6px; box-shadow: 0 2px 12px rgba(0, 0, 0, .18); }
+.markdown-section em { color: var(--fz-muted); }
+html[data-theme="dark"] .markdown-section img { box-shadow: 0 2px 12px rgba(0, 0, 0, .6); }
+html[data-theme="dark"] .markdown-section tr:nth-child(2n) { background-color: #25282b; }
+
+/* Search */
+.fz-search { position: relative; padding: 6px 15px 10px; border-bottom: 1px solid var(--fz-border); }
+.fz-search input {
+  width: 100%; box-sizing: border-box; padding: 8px 10px; font-size: 14px;
+  color: var(--fz-text); background: var(--fz-bg);
+  border: 1px solid var(--fz-border); border-radius: 6px; outline: none;
+}
+.fz-search input:focus { border-color: var(--theme-color); }
+.fz-results { margin-top: 8px; max-height: 60vh; overflow-y: auto; }
+.fz-result {
+  display: block; padding: 7px 8px; border-radius: 5px; text-decoration: none !important;
+  color: var(--fz-text) !important; border-bottom: 1px solid var(--fz-border);
+}
+.fz-result:hover, .fz-result.fz-active { background: var(--fz-hover); }
+.fz-title { display: block; font-weight: 600; font-size: 13px; color: var(--theme-color); }
+.fz-snippet { display: block; font-size: 12px; line-height: 1.45; color: var(--fz-muted); }
+.fz-snippet mark { background: var(--fz-mark); color: inherit; padding: 0 1px; border-radius: 2px; }
+.fz-empty { font-size: 13px; color: var(--fz-muted); padding: 6px 2px; }
+
+/* Theme toggle */
+.theme-toggle {
+  position: fixed; top: 12px; right: 16px; z-index: 30;
+  padding: 6px 12px; font-size: 13px; cursor: pointer;
+  color: var(--fz-text); background: var(--fz-bg);
+  border: 1px solid var(--fz-border); border-radius: 16px;
+}
+.theme-toggle:hover { border-color: var(--theme-color); }

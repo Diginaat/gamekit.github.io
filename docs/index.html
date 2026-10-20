@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GameKit Docs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="How to use GameKit: modular first-person systems for Godot 4 (C#)">
+  <link rel="stylesheet" id="theme-light" href="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/themes/vue.css">
+  <link rel="stylesheet" id="theme-dark" href="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/themes/dark.css" disabled>
+  <link rel="stylesheet" href="assets/docs.css">
+  <!-- Sets the theme before the page draws (no light flash in dark mode). -->
+  <script src="assets/theme-toggle.js"></script>
+</head>
+<body>
+  <div id="app">Loading…</div>
+  <script>
+    window.$docsify = Object.assign(window.$docsify || {}, {
+      name: 'GameKit',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      relativePath: false,
+      copyCode: { buttonText: 'Copy', successText: 'Copied' },
+      pagination: { previousText: 'Previous', nextText: 'Next', crossChapter: true },
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="assets/fuzzy-search.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2.10.1/dist/docsify-pagination.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-csharp.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-glsl.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-gdscript.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-ini.min.js"></script>
+</body>
+</html>
