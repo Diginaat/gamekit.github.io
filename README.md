@@ -22,7 +22,7 @@ To publish on GitHub Pages: push this folder to a repository and set **Settings 
 | --- | --- |
 | `docs/index.html` | docsify setup (theme, plugins) |
 | `docs/_sidebar.md` | Navigation |
-| `docs/README.md` | Home page |
+| `docs/home.md` | Home page (not README.md: Vercel does not serve README files) |
 | `docs/<section>/*.md` | Pages |
 | `docs/images/` | Screenshots |
 

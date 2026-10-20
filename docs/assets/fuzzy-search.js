@@ -38,14 +38,14 @@
     var files = [];
     var re = /\]\(([^)\s]+)\)/g, m;
     while ((m = re.exec(sidebar))) {
-      var f = m[1] === '/' ? 'README.md' : m[1].replace(/^\//, '');
+      var f = m[1] === '/' ? 'home.md' : m[1].replace(/^\//, '');
       if (/\.md$/.test(f) && files.indexOf(f) < 0) files.push(f);
     }
     return files;
   }
 
   function sections(file, markdown) {
-    var route = '#/' + (file === 'README.md' ? '' : file.replace(/\.md$/, ''));
+    var route = '#/' + (file === 'home.md' ? '' : file.replace(/\.md$/, ''));
     var pageTitle = ((markdown.match(/^#\s+(.+)$/m) || [])[1] || file).trim();
     var out = [], used = {}, inCode = false;
     var current = { title: pageTitle, id: '', lines: [] };
