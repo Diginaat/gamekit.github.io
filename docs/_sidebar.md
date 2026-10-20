@@ -1,6 +1,7 @@
 - [Introduction](/)
 
 - Getting Started
+  - [Download (latest release)](https://github.com/Diginaat/godot/releases/latest)
   - [Demo projects (start here)](getting-started/demo-projects.md)
   - [Requirements](getting-started/requirements.md)
   - [Install GameKit in a project](getting-started/installation.md)

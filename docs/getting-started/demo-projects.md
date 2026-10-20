@@ -49,7 +49,9 @@ You can download it without any extra tools:
 1. Open the project page:
    [GameKitDemoGDScript](https://github.com/Diginaat/GameKitDemoGDScript) or
    [GameKitDemoCSharp](https://github.com/Diginaat/GameKitDemoCSharp).
-2. Click the green **Code** button, then **Download ZIP**.
+2. Click the green **Code** button, then **Download ZIP**. Direct links:
+   [GDScript ZIP](https://github.com/Diginaat/GameKitDemoGDScript/archive/refs/heads/main.zip),
+   [C# ZIP](https://github.com/Diginaat/GameKitDemoCSharp/archive/refs/heads/main.zip).
 3. Extract the zip, for example to `C:\GodotProjects\GameKitDemoGDScript`.
 
 Or, if you have [Git](https://git-scm.com/downloads) installed, run in a terminal:

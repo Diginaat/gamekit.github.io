@@ -6,6 +6,17 @@ a photographic camera look and first-person weapons. Each system is a folder you
 
 ![Feature showcase](images/sc_overview.png)
 
+## Download
+
+| What | Download |
+| --- | --- |
+| **Engine** (Godot NVIDIA + PhysX, Windows) | **[Latest release](https://github.com/Diginaat/godot/releases/latest)**, then under **Assets**: `..._editor_windows_amd64_mono.zip` (C# and GDScript) or `..._editor_windows_amd64.zip` (GDScript only). Export templates: `..._export_templates_windows_amd64.tpz`. [All releases](https://github.com/Diginaat/godot/releases) |
+| **GDScript demo** | [Download ZIP](https://github.com/Diginaat/GameKitDemoGDScript/archive/refs/heads/main.zip) or [GitHub page](https://github.com/Diginaat/GameKitDemoGDScript) |
+| **C# demo** | [Download ZIP](https://github.com/Diginaat/GameKitDemoCSharp/archive/refs/heads/main.zip) or [GitHub page](https://github.com/Diginaat/GameKitDemoCSharp) |
+
+The **Latest release** link always opens the newest engine version. New to this? Follow
+[Demo projects](getting-started/demo-projects.md) step by step.
+
 ## What is in the kit
 
 | Module | What you get |
